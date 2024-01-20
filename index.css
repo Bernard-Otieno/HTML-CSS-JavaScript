@@ -1,21 +1,50 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
+    scroll-behavior: smooth; 
+    padding-top: 70px;
     background-color: #f4f4f4;
+}
+#about {
+    margin-top: 50px; 
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
+    color: white;
+    padding: 10px 20px; 
+    box-sizing: border-box;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+}
+.profile-container {
+    display: flex; /* Use flexbox for layout within the profile container */
+    align-items: center; /* Align items vertically in the center */
+    
+}
+#profile-picture {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px; 
 }
 
-header h1 {
+header h1 p{
     margin: 0;
+    font-size: 18px;
 }
 
+
+#profile-picture {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px; 
+}
 section {
     padding: 2em;
 }
@@ -29,8 +58,9 @@ project {
 }
 
 section#contact{
-    margin-bottom: 10em; /* Adjust the value as needed to provide enough space for the footer */
+    margin-bottom: 10em; 
 }
+
 
 footer {
     background-color: #333;
@@ -43,14 +73,16 @@ footer {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 1em;
-    display: flex;
-    align-items: center;
+    padding: 10px 0;
     
 }
+
 .header-content{
     flex-direction: column;
 }
@@ -62,4 +94,25 @@ header {
 
 .header-content {
     text-align: left;
+}
+nav.left-aligned {
+    text-align: left;
+    margin-top: 20px; 
+}
+
+nav.left-aligned ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.left-aligned li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav.left-aligned a {
+    text-decoration: none;
+    color: white; /* Adjust the color as needed */
+    font-weight: bold;
 }
