@@ -28,6 +28,10 @@ project {
     margin-bottom: 2em;
 }
 
+section#contact{
+    margin-bottom: 10em; /* Adjust the value as needed to provide enough space for the footer */
+}
+
 footer {
     background-color: #333;
     color: #fff;
