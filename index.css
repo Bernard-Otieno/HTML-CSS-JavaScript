@@ -49,6 +49,10 @@ header {
     padding: 1em;
     display: flex;
     align-items: center;
+    
+}
+.header-content{
+    flex-direction: column;
 }
 
 #profile-picture {
