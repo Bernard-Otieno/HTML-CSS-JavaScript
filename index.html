@@ -26,18 +26,60 @@
         </ul>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
+    
+       
+<section id="projects">
+    <h2>Projects</h2>
+    
+    <div class="project" onclick="toggleProjectDetails('project1')">
+        <h3>Project 1</h3>
+        <img src="" alt="Project 1 Image 1">
+        <img src="" alt="Project 1 Image 2">
+        <div id="project1-details" style="display: none;">
             <p>Description of Project 1.</p>
+            
+            <!-- Add more images as needed -->
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of Project 2.</p>
-        </div>
-    </section>
+    </div>
 
+    <div class="project" onclick="toggleProjectDetails2('project2')">
+        <h3>Project 1</h3>
+        <img src="" alt="Project 1 Image 1">
+        <img src="" alt="Project 1 Image 2">
+        <div id="project2-details" style="display: none;">
+            <p>Description of Project 1.</p>
+            
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+
+    <div class="project" onclick="toggleProjectDetails3('project3')">
+        <h3>Project 1</h3>
+        <img src="" alt="Project 1 Image 1">
+        <img src="" alt="Project 1 Image 2">
+        <div id="project3-details" style="display: none;">
+            <p>Description of Project 1.</p>
+            
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+    
+</section>
+
+<script>
+    function toggleProjectDetails(projectId) {
+    const projectDetails = document.getElementById(projectId + '-details');
+    projectDetails.style.display = projectDetails.style.display === 'none' ? 'block' : 'none';
+    }
+    function toggleProjectDetails2(projectId) {
+    const projectDetails = document.getElementById(projectId + '-details');
+    projectDetails.style.display = projectDetails.style.display === 'none' ? 'block' : 'none';
+    }
+    function toggleProjectDetails3(projectId) {
+    const projectDetails = document.getElementById(projectId + '-details');
+    projectDetails.style.display = projectDetails.style.display === 'none' ? 'block' : 'none';
+}
+</script>
     <section id="contact">
         <h2>Contact Me</h2>
         <p>Email: Bernard20Otieno01@gmail.com</p>
@@ -49,5 +91,6 @@
     </footer>
     
     
+
 </body>
 </html>
