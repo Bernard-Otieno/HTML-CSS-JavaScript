@@ -35,9 +35,7 @@
             <li>HTML CSS & JavaScript</li>
             <li>R</li> 
         </ul>
-        <h3>Where I am Based at</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.776594177892!2d36.80994100915223!3d-1.309324535643314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f112e9eff4827%3A0x17a918597484c8ea!2sStrathmore%20University!5e0!3m2!1sen!2ske!4v1685956819312!5m2!1sen!2ske" width="70%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <figcaption class="figure-caption text-end">View my location </figcaption>
+        
 
     </section>
 
@@ -67,7 +65,7 @@
     </div>
 
     <div class="project" onclick="toggleProjectDetails2('project2')">
-        <h3>Project 1</h3>
+        <h3>Fraud Detection System</h3>
         <div class="image-container">
         <img src="img/IS_2 home.png" alt="Project 1 Image 1"style="height: 300px;width: 700px;"> 
         <img src="img/IS_2.png" alt="Project 1 Image 2"style="height: 300px;width: 700px;">
@@ -91,37 +89,39 @@
     </div>   
 </section>
 
-<script>
-    function toggleProjectDetails(projectId) {
-    const projectDetails = document.getElementById(projectId + '-details');
-    projectDetails.style.display = projectDetails.style.display === 'none' ? 'block' : 'none';
-    }
-    function toggleProjectDetails2(projectId) {
-    const projectDetails = document.getElementById(projectId + '-details');
-    projectDetails.style.display = projectDetails.style.display === 'none' ? 'block' : 'none';
-    }
-    function toggleProjectDetails3(projectId) {
-    const projectDetails = document.getElementById(projectId + '-details');
-    projectDetails.style.display = projectDetails.style.display === 'none' ? 'block' : 'none';
-}
-</script>
+
     <section id="contact">
         <h2>Contact Me</h2>
         <p>Email: Bernard20otieno01@gmail.com</p>   
         <p>LinkedIn: <a href="https://www.linkedin.com/in/bernard-otieno-5b441124b/">Bernard Otieno</a></p>
+        <h3>Where I am Based at</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.776594177892!2d36.80994100915223!3d-1.309324535643314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f112e9eff4827%3A0x17a918597484c8ea!2sStrathmore%20University!5e0!3m2!1sen!2ske!4v1685956819312!5m2!1sen!2ske" width="70%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <figcaption class="figure-caption text-end">View my location </figcaption>
     </section>
 
     
-
-    <footer>
+<footer>
      <p>&copy; 2024 Bernard Otieno</p>
      <a class="list-group-item list-group-item-action" href="CV/Bernard Otieno CV.pdf"
    download="Mr.Bernard Otieno.pdf">
     <button type="button" >Download my CV</button>
 </a>
-    </footer>
+</footer>
     
-    
+<script>
+        function toggleProjectDetails(projectId) {
+        const projectDetails = document.getElementById(projectId + '-details');
+        projectDetails.style.display = projectDetails.style.display === 'none' ? 'block' : 'none';
+        }
+        function toggleProjectDetails2(projectId) {
+        const projectDetails = document.getElementById(projectId + '-details');
+        projectDetails.style.display = projectDetails.style.display === 'none' ? 'block' : 'none';
+        }
+        function toggleProjectDetails3(projectId) {
+        const projectDetails = document.getElementById(projectId + '-details');
+        projectDetails.style.display = projectDetails.style.display === 'none' ? 'block' : 'none';
+    }
+</script>
 
 </body>
 </html>
