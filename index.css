@@ -86,6 +86,12 @@ header h1 p{
 }
 section {
     padding: 2em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px; /* Adjust padding as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+section#contact {
+    border-bottom: none;
 }
 
 h2 {
