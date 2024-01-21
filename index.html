@@ -195,5 +195,32 @@
     }
 </script>
 
+<!-- Easter Egg-->
+<script>
+        //  key combination for the Easter egg (e.g., Konami Code)
+const konamiCode = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
+
+let konamiCodeIndex = 0;
+
+//event listener to the document to capture key presses
+document.addEventListener("keydown", function (event) {
+    // Check if the pressed key matches the next key in the Konami Code
+    if (event.key === konamiCode[konamiCodeIndex]) {
+        konamiCodeIndex++;
+
+        if (konamiCodeIndex === konamiCode.length) {
+            activateEasterEgg();
+        }
+    } else {
+        konamiCodeIndex = 0;
+    }
+});
+
+function activateEasterEgg() {
+    alert("Congratulations! You found the Easter egg!(Konami code).I'm also a gamer :)  ");
+}
+
+    </script>
+
 </body>
 </html>
