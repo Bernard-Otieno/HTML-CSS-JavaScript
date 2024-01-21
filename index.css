@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     scroll-behavior: smooth; 
-    padding-top: 70px;
+    padding-top: 140px;
     background-color: #f4f4f4;
 }
 #about {
@@ -15,7 +15,7 @@ header {
     width: 100%;
     background-color: #333;
     color: white;
-    padding: 10px 20px; 
+    padding: 5px 5px; 
     box-sizing: border-box;
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack items vertically */
@@ -67,7 +67,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
@@ -97,7 +96,7 @@ header {
 }
 nav.left-aligned {
     text-align: left;
-    margin-top: 20px; 
+     margin-bottom: 20px;
 }
 
 nav.left-aligned ul {
