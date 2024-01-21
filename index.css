@@ -130,3 +130,22 @@ body {
     max-width: 100%; /* Make sure the images don't exceed their container */
     margin-right: 10px; /* Adjust spacing between images as needed */
 }
+project2-details {
+        background-color: #f5f5f5;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px 0;
+    }
+
+    project2-details h2 {
+        color: #333;
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    project2-details p {
+        color: #666;
+        font-size: 16px;
+        line-height: 1.6;
+    }
