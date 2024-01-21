@@ -12,14 +12,16 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100%;
+    right: 0;
+    width: auto;
     background-color: #333;
     color: white;
-    padding: 5px 5px; 
-    box-sizing: border-box;
+    padding: 5px 20px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding in the width calculation */
     display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align items to the left */
+    flex-direction: row; /* Arrange items horizontally */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Distribute items evenly along the row */
 }
 .profile-container {
     display: flex; /* Use flexbox for layout within the profile container */
@@ -95,8 +97,7 @@ header {
     text-align: left;
 }
 nav.left-aligned {
-    text-align: left;
-     margin-bottom: 20px;
+    margin-top: 5px; /* Adjust margin as needed */
 }
 
 nav.left-aligned ul {
@@ -107,11 +108,25 @@ nav.left-aligned ul {
 
 nav.left-aligned li {
     display: inline-block;
-    margin-right: 20px;
+    margin-left: 15px; /* Adjust margin as needed */
 }
 
 nav.left-aligned a {
     text-decoration: none;
-    color: white; /* Adjust the color as needed */
+    color: white;
     font-weight: bold;
+}
+
+/* Add padding to the top of the body to account for the fixed header */
+body {
+    padding-top: 70px; /* Adjust the value based on your header height */
+}
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    /* Adjust styles for each image as needed */
+    max-width: 100%; /* Make sure the images don't exceed their container */
+    margin-right: 10px; /* Adjust spacing between images as needed */
 }
