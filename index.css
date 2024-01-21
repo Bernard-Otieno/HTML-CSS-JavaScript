@@ -59,6 +59,7 @@ header {
     flex-direction: row; /* Arrange items horizontally */
     align-items: center; /* Align items vertically in the center */
     justify-content: space-between; /* Distribute items evenly along the row */
+    z-index: 1000;
 }
 .profile-container {
     display: flex; /* Use flexbox for layout within the profile container */
@@ -196,6 +197,7 @@ project2-details {
 
     /* Slideshow container */
     .slideshow-container {
+      z-index: 1;
       max-width: 1000px;
       position: relative;
       margin: auto;
