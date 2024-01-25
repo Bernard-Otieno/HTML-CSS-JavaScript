@@ -37,7 +37,7 @@ JSX, a syntax extension that allows us to write HTML-like code in JavaScripts fi
 # What is async/await? Bring an example
 A feature in JavaScript that is used to work with asynchronous functions. 'async' is used to declare an asynchronous function while await is used to pause a function until the promise is fulfilled/rejected.
 
-# Function that returns a Promise (e.g., fetching data)
+## Function that returns a Promise (e.g., fetching data)
 function fetchData() {
   return new Promise((resolve) => {
     setTimeout(() => {
